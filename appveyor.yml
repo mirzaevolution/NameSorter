@@ -6,4 +6,4 @@ test:
   # only assemblies to test
   assemblies:
     only:
-      - C:\projects\namesorter\NameSorter.Library.Test\bin\Debug\NameSorter.Library.Test.dll
+      - "C:\projects\namesorter\NameSorter.Library.Test\bin\Debug\NameSorter.Library.Test.dll"
