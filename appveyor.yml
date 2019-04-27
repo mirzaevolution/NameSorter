@@ -6,8 +6,4 @@ test:
   # only assemblies to test
   assemblies:
     only:
-      - test-assembly-A.dll
-      - 'NameSorter.Library.Test\bin\$(configuration)\NameSorter.Library.Test.dll'
-
-test_script:
-- dotnet test --test-adapter-path:"NameSorter.Library.Test\bin\debug\NameSorter.Library.Test.dll" --logger:Appveyor
+      - 'NameSorter.Library.Test\bin\debug\NameSorter.Library.Test.dll'
