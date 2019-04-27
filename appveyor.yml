@@ -7,3 +7,5 @@ test:
   assemblies:
     only:
       - 'NameSorter.Library.Test\bin\debug\NameSorter.Library.Test.dll'
+test_script:
+- dotnet test --test-adapter-path:"NameSorter.Library.Test\bin\debug\NameSorter.Library.Test.dll" --logger:Appveyor
