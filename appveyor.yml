@@ -6,4 +6,7 @@ test:
   # only assemblies to test
   assemblies:
     only:
-      - 'C:\projects\namesorter\NameSorter.Library.Test\bin\Debug\NameSorter.Library.Test.dll'
+      - 'NameSorter.Library.Test\bin\Debug\NameSorter.Library.Test.dll'
+
+test_script:
+- vstest.console /logger:Appveyor "NameSorter.Library.Test\bin\debug\NameSorter.Library.Test.dll" /UseVsixExtensions:true
