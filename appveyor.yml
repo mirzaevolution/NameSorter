@@ -1,0 +1,10 @@
+version: 1.0.{build}
+build:
+  verbosity: minimal
+  
+test:
+  # only assemblies to test
+  assemblies:
+    only:
+      - test-assembly-A.dll
+      - 'NameSorter.Library.Test\bin\$(configuration)\NameSorter.Library.Test.dll'
