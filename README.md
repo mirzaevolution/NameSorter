@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/cqx1eghk2xbwekpi?svg=true)](https://ci.appveyor.com/project/mirzaevolution/namesorter)
+
+
 ## Name Sorter v1
 
 A lightweight program that sorts list of names from file input with 2 built-in sort orders, ascending and descending.
