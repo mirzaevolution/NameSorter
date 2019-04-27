@@ -8,3 +8,6 @@ test:
     only:
       - test-assembly-A.dll
       - 'NameSorter.Library.Test\bin\$(configuration)\NameSorter.Library.Test.dll'
+
+test_script:
+- vstest.console /logger:Appveyor "NameSorter.Library.Test\bin\$(configuration)\NameSorter.Library.Test.dll" /parallel
