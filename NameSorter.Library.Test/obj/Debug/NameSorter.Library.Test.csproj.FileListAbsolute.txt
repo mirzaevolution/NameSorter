@@ -14,3 +14,5 @@ C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter
 C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library.Test\obj\Debug\NameSorter.Library.Test.csproj.CopyComplete
 C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library.Test\obj\Debug\NameSorter.Library.Test.dll
 C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library.Test\obj\Debug\NameSorter.Library.Test.pdb
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.Extension.Appveyor.TestLogger.dll
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.Extension.Appveyor.TestAdapter.dll
