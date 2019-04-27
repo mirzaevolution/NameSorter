@@ -10,4 +10,4 @@ test:
       - 'NameSorter.Library.Test\bin\$(configuration)\NameSorter.Library.Test.dll'
 
 test_script:
-- vstest.console /logger:Appveyor "NameSorter.Library.Test\bin\debug\NameSorter.Library.Test.dll" /parallel /UseVsixExtensions
+- vstest.console /logger:Appveyor "NameSorter.Library.Test\bin\debug\NameSorter.Library.Test.dll" /parallel /UseVsixExtensions:true
