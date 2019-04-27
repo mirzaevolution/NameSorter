@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{448EA368-E337-4F3E-AB0F-ED0EAB14887E}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NameSorter.Library</RootNamespace>
-    <AssemblyName>NameSorter.Library</AssemblyName>
+    <ProjectGuid>{0EDF0FE2-5D3C-4B73-AE4C-E77BDDB78D46}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NameSorter.ConsoleApp</RootNamespace>
+    <AssemblyName>NameSorter</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,11 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuiltIns\AscendingNameSorter.cs" />
-    <Compile Include="BuiltIns\DescendingNameSorter.cs" />
-    <Compile Include="INameSorter.cs" />
-    <Compile Include="DefaultNameSorter.cs" />
+    <Compile Include="Handler.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NameSorter.Library\NameSorter.Library.csproj">
+      <Project>{448ea368-e337-4f3e-ab0f-ed0eab14887e}</Project>
+      <Name>NameSorter.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

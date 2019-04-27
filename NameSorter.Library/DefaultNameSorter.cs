@@ -10,19 +10,18 @@ namespace NameSorter.Library
     /// <summary>
     /// Generic class that handles Name Sorting based on build-in Name Sorter
     /// </summary>
-    public class NameSorter
+    public class DefaultNameSorter
     {
         /// <summary>
         /// A class that implements INameSorter interface that will perform sorting and saving data purposes
         /// </summary>
         private INameSorter _nameSorter;
-
-
+        
         /// <summary>
         /// Main constructor that uses Dependency Injection
         /// </summary>
         /// <param name="nameSorter">Instance of the class that implements INameSorter interface</param>
-        public NameSorter(INameSorter nameSorter)
+        public DefaultNameSorter(INameSorter nameSorter)
         {
             if (nameSorter == null)
                 throw new ArgumentNullException(nameof(nameSorter), "Instance of the INameSorter cannot be null");
@@ -35,7 +34,7 @@ namespace NameSorter.Library
         /// </summary>
         /// <param name="path">Path of the file that contains list of names</param>
         /// <returns>Sorted names list</returns>
-        public List<string> SortNames(string path)
+        public Task<List<string>> SortNames(string path)
         {
             return this._nameSorter.SortNames(path);
         }

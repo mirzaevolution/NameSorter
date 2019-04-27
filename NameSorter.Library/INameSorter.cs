@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace NameSorter.Library
 {
@@ -12,6 +13,6 @@ namespace NameSorter.Library
         /// </summary>
         /// <param name="path">Path of the file</param>
         /// <returns>List of name sorted by lastname and the by given name</returns>
-        List<string> SortNames(string path);
+        Task<List<string>> SortNames(string path);
     }
 }
