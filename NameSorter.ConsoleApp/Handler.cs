@@ -9,27 +9,47 @@ using NameSorter.Library.BuiltIns;
 
 namespace NameSorter.ConsoleApp
 {
+    /// <summary>
+    /// Constant Fields
+    /// </summary>
     public class Constants
     {
         public static readonly string ASCENDING_ORDER = "ASC";
         public static readonly string DESCENDING_ORDER = "DESC";
     }
+
+    /// <summary>
+    /// Handler class for handling parsing command and executing desired sorting algorithm
+    /// </summary>
     public class Handler
     {
     
+        /// <summary>
+        /// Parses the command and invoke the Name Sorter algorithm to sort the names
+        /// </summary>
+        /// <param name="commands">Command line command</param>
         public void ParseCommand(string[] commands)
         {
             DefaultNameSorter sorter;
+
+            //Default command. It is ascending order
             if(commands.Length==1)
             {
+                //Get the target file name
                 string path = commands[0];
+
                 sorter = new DefaultNameSorter(new AscendingNameSorter());
                 Sort(sorter, path, Constants.ASCENDING_ORDER).Wait();
             }
             else if(commands.Length==2)
             {
+                //Get the target file name
                 string path = commands[0];
+
+                //Get the sort order
                 string sortOrder = commands[1];
+
+
                 if(sortOrder.Equals(Constants.ASCENDING_ORDER,StringComparison.CurrentCultureIgnoreCase))
                 {
                     sorter = new DefaultNameSorter(new AscendingNameSorter());
@@ -76,17 +96,17 @@ namespace NameSorter.ConsoleApp
                 try
                 {
                     File.WriteAllText(path: newPath, contents: fileContents.ToString());
-                    Console.WriteLine($"Sorted list of names saved at: {newPath}");
+                    Console.WriteLine($"\nSorted list of names saved at: {newPath}");
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Failed to save the sorted list of names.");
+                    Console.WriteLine($"\nFailed to save the sorted list of names.");
                     Console.WriteLine($"Reason: {ex.Message}");
                 }
             }
             else
             {
-                Console.WriteLine("File doesn't contain any character");
+                Console.WriteLine("\nFile doesn't contain any character");
             }
         }
        

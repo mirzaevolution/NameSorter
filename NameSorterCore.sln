@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSorter.Library", "NameS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSorter.ConsoleApp", "NameSorter.ConsoleApp\NameSorter.ConsoleApp.csproj", "{0EDF0FE2-5D3C-4B73-AE4C-E77BDDB78D46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSorter.Library.Test", "NameSorter.Library.Test\NameSorter.Library.Test.csproj", "{E3C9CF72-E0E9-45DD-95E9-DC76FA643311}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0EDF0FE2-5D3C-4B73-AE4C-E77BDDB78D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EDF0FE2-5D3C-4B73-AE4C-E77BDDB78D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EDF0FE2-5D3C-4B73-AE4C-E77BDDB78D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C9CF72-E0E9-45DD-95E9-DC76FA643311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C9CF72-E0E9-45DD-95E9-DC76FA643311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C9CF72-E0E9-45DD-95E9-DC76FA643311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C9CF72-E0E9-45DD-95E9-DC76FA643311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
