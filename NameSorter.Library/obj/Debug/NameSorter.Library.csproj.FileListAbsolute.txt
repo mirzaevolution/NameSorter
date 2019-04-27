@@ -1,0 +1,6 @@
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library\bin\Debug\NameSorter.Library.dll
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library\bin\Debug\NameSorter.Library.pdb
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library\obj\Debug\NameSorter.Library.csproj.CoreCompileInputs.cache
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library\obj\Debug\NameSorter.Library.dll
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library\obj\Debug\NameSorter.Library.pdb
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.Library\obj\Debug\NameSorter.Library.csprojAssemblyReference.cache

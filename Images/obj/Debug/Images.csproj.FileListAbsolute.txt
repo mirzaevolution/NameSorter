@@ -1,0 +1,2 @@
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\Images\obj\Debug\Images.csprojAssemblyReference.cache
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\Images\obj\Debug\Images.csproj.CoreCompileInputs.cache

@@ -1,0 +1,10 @@
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\bin\Debug\NameSorter.Library.dll
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\bin\Debug\NameSorter.Library.pdb
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\obj\Debug\NameSorter.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\obj\Debug\NameSorter.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\obj\Debug\NameSorter.ConsoleApp.csproj.CopyComplete
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\bin\Debug\NameSorter.exe.config
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\bin\Debug\NameSorter.exe
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\bin\Debug\NameSorter.pdb
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\obj\Debug\NameSorter.exe
+C:\Users\skyline\Documents\Visual Studio 2017\Projects\NameSorterCore\NameSorter.ConsoleApp\obj\Debug\NameSorter.pdb
